@@ -1,0 +1,102 @@
+@font-face {
+    font-family: coffee;
+    src: url(font/coffee.otf);
+}
+
+.navbar{
+    height: 80px;
+}
+
+.img-cover{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-image: url(img/cover.jpg);
+    background-size: cover;
+}
+.text-cover{
+    margin-top: 150px;
+    margin-left: 55%;
+    font-family: coffee;
+    color: white;
+}
+span{
+    color:  rgb(255, 187, 0);
+}
+.services-box{
+    height: 700px;
+    width: 100%;
+    background-color: #f5dfca;
+    text-align: center;
+}
+.card-group{   
+    margin: auto;
+    height: 450px;
+    width: 80%;
+}
+.card-img-top{
+    width: 350px;
+    height: 350px;
+}
+.text{
+    padding: 40px;
+    font-family: coffee;
+    color: rgb(0, 0, 0);
+}
+.contato-box{
+    height: 450px;
+    width: 100%;
+    padding: 15px;
+}
+footer{
+    background-color: #212529;
+    height: 100px;
+}
+h1{
+    font-size: 80px;
+}
+@media screen and (max-width: 480px)  {
+    .text-cover{
+        font-size: 10px;
+        margin-top: 50px;
+        margin-left: 55%;
+        font-family: coffee;
+        color: white;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .img-cover{
+        display: grid;
+        height: 200px;
+        width: 100%;
+        background-image: url(img/cover.jpg);
+        background-size: cover;
+    }
+    .services-box{
+        height: 300px;
+        width: 100%;
+        background-color: #f5dfca;
+        text-align: center;
+    }
+    .card-body{ 
+        margin: auto; 
+        font-size: 10px; 
+        width:100%;
+        height: 3px;
+    }
+    .card-img-top{
+        display: none;
+    }
+    p{
+        font-size: 7px;
+    }
+    .text{
+        padding: 15px;
+        font-family: coffee;
+        color: rgb(0, 0, 0);
+    }
+  }
+  @media screen and (min-width:480px max-width: 480px){
+
+  }
